@@ -97,10 +97,6 @@ link:  https://solution-challange-tawny.vercel.app/
 
 <img width="1908" height="859" alt="image" src="https://github.com/user-attachments/assets/144b39b8-92ab-4927-80fd-cbaebf6fefaa" />
 
-## 🌐 Deployment to GitHub Pages
-
-
----
 
 ## 🤖 Agent Logic Details
 - **Monitor Agent**: Constantly listens for "High Risk" events. It uses a threshold-based logic to avoid noise.
