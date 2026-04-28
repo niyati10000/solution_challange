@@ -91,13 +91,14 @@ python src/data_ingestion.py
 
 ---
 
-## 🌐 Deployment to GitHub Pages
-This project is configured for automatic deployment via GitHub Actions.
+## deployed demo
 
-**To enable the live site:**
-1.  Go to your Repository **Settings** > **Pages**.
-2.  Change **Build and deployment > Source** to **"GitHub Actions"**.
-3.  Your site will be live at: `https://<your-username>.github.io/solution_challange/`
+link:  https://solution-challange-tawny.vercel.app/
+
+<img width="1908" height="859" alt="image" src="https://github.com/user-attachments/assets/144b39b8-92ab-4927-80fd-cbaebf6fefaa" />
+
+## 🌐 Deployment to GitHub Pages
+
 
 ---
 
