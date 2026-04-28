@@ -1,0 +1,52 @@
+{
+  "input_features": [
+    {
+      "name": "shipment_id",
+      "type": "string",
+      "description": "Unique identifier for the shipment"
+    },
+    {
+      "name": "origin_lat",
+      "type": "float"
+    },
+    {
+      "name": "origin_lng",
+      "type": "float"
+    },
+    {
+      "name": "dest_lat",
+      "type": "float"
+    },
+    {
+      "name": "dest_lng",
+      "type": "float"
+    },
+    {
+      "name": "current_lat",
+      "type": "float"
+    },
+    {
+      "name": "current_lng",
+      "type": "float"
+    },
+    {
+      "name": "weather_condition",
+      "type": "enum",
+      "values": ["clear", "rain", "snow", "storm", "fog"]
+    },
+    {
+      "name": "traffic_density",
+      "type": "float",
+      "description": "Normalized value from 0.0 to 1.0"
+    },
+    {
+      "name": "carrier_reliability_score",
+      "type": "float"
+    }
+  ],
+  "output": {
+    "name": "delay_probability",
+    "type": "float",
+    "description": "Probability of a delay > 2 hours"
+  }
+}
