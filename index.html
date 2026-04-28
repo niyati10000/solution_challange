@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Supply Chain | Antigravity AI</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <main class="dashboard-container">
+        <header>
+            <div class="logo">
+                <span class="icon">🛰️</span>
+                <h1>Smart Supply Chain <small>Autonomous Control</small></h1>
+            </div>
+            <div class="system-status">
+                <span class="pulse"></span> System Online | AI: Gemini 3 Pro
+            </div>
+        </header>
+
+        <section class="grid-layout">
+            <!-- Shipment Monitor -->
+            <div class="card glass">
+                <div class="card-header">
+                    <h2>Live Shipment Monitor</h2>
+                    <span class="badge">Active</span>
+                </div>
+                <div class="shipment-list" id="shipment-list">
+                    <!-- Dynamic Content -->
+                    <div class="shipment-item">
+                        <div class="info">
+                            <strong>SHIP-1001</strong>
+                            <span>In Transit - NY Area</span>
+                        </div>
+                        <div class="stats">
+                            <span class="weather">☀️ Clear</span>
+                            <span class="delay low">Delay: 2%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Agent Logs -->
+            <div class="card glass">
+                <div class="card-header">
+                    <h2>Antigravity Agent Logic</h2>
+                    <span class="badge agent">Decision Engine</span>
+                </div>
+                <div class="agent-logs" id="agent-logs">
+                    <div class="log-entry">
+                        <span class="time">21:45:02</span>
+                        <span class="msg">[Monitor] Scanning active routes...</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Prediction Insights -->
+            <div class="card glass prediction-card">
+                <div class="card-header">
+                    <h2>Vertex AI Prediction</h2>
+                </div>
+                <div class="chart-area">
+                    <div class="radial-progress" id="prediction-score" style="--value: 12">
+                        <div class="inner">12%</div>
+                    </div>
+                    <p class="insight-text">Probability of significant delay across network is currently <strong>Low</strong>.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <button id="simulate-incident" class="btn-primary">Simulate Weather Incident</button>
+        </footer>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
