@@ -1,0 +1,28 @@
+{
+  "agent_id": "ssc-planner-001",
+  "name": "Smart Supply Chain Planner",
+  "version": "1.0.0",
+  "protocol": "A2A v2.1",
+  "capabilities": [
+    "route_optimization",
+    "risk_assessment",
+    "autonomous_negotiation",
+    "vertex_ai_integration"
+  ],
+  "identity_card": {
+    "issuer": "Antigravity-GSC-2026",
+    "public_key": "ed25519:f9a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6",
+    "permissions": [
+      "READ_IOT_STREAMS",
+      "INVOKE_VERTEX_PREDICTION",
+      "WRITE_ERP_ROUTES",
+      "NOTIFY_CARRIER_WEBHOOK"
+    ],
+    "verification_endpoint": "https://auth.antigravity.ai/verify/ssc-planner-001"
+  },
+  "metadata": {
+    "category": "Logistics Optimization",
+    "sdg_mapping": "SDG 9",
+    "autonomous_level": 4
+  }
+}
